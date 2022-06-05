@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/dev-1.metagate.dev/static/css/main.d42c0eea.css",
-    "main.js": "/dev-1.metagate.dev/static/js/main.939f086a.js",
-    "static/js/787.66b477fd.chunk.js": "/dev-1.metagate.dev/static/js/787.66b477fd.chunk.js",
-    "static/media/bg_sound.mp3": "/dev-1.metagate.dev/static/media/bg_sound.69a3e1132c7759ab66e1.mp3",
-    "static/media/Aceh-Light.ttf": "/dev-1.metagate.dev/static/media/Aceh-Light.50c098397e5fb7aa93ad.ttf",
-    "static/media/Roboto-Regular.ttf": "/dev-1.metagate.dev/static/media/Roboto-Regular.a8d6ac03c7b96b7acb62.ttf",
-    "static/media/Israr-Syria.otf": "/dev-1.metagate.dev/static/media/Israr-Syria.7b35b692dcfe7ce010ad.otf",
-    "static/media/Swissra_Medium_Desktop.woff": "/dev-1.metagate.dev/static/media/Swissra_Medium_Desktop.a71c5612b786ec0ad28f.woff",
-    "static/media/Swissra_Light_Mobile.woff": "/dev-1.metagate.dev/static/media/Swissra_Light_Mobile.0e0ed22901b19a576d5c.woff",
-    "index.html": "/dev-1.metagate.dev/index.html",
-    "static/media/Kusanagi.otf": "/dev-1.metagate.dev/static/media/Kusanagi.e9897a0e55d6890fd3b0.otf",
-    "static/media/slick.svg": "/dev-1.metagate.dev/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/dev-1.metagate.dev/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/dev-1.metagate.dev/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/dev-1.metagate.dev/static/media/slick.295183786cd8a1389865.woff",
-    "static/media/cursor.svg": "/dev-1.metagate.dev/static/media/cursor.b4ddc4f6e454b1cf8251.svg",
-    "main.d42c0eea.css.map": "/dev-1.metagate.dev/static/css/main.d42c0eea.css.map",
-    "main.939f086a.js.map": "/dev-1.metagate.dev/static/js/main.939f086a.js.map",
-    "787.66b477fd.chunk.js.map": "/dev-1.metagate.dev/static/js/787.66b477fd.chunk.js.map"
+    "main.css": "/static/css/main.7dfcdaf5.css",
+    "main.js": "/static/js/main.6b0daf33.js",
+    "static/js/787.66b477fd.chunk.js": "/static/js/787.66b477fd.chunk.js",
+    "static/media/bg_sound.mp3": "/static/media/bg_sound.69a3e1132c7759ab66e1.mp3",
+    "static/media/Aceh-Light.ttf": "/static/media/Aceh-Light.50c098397e5fb7aa93ad.ttf",
+    "static/media/Roboto-Regular.ttf": "/static/media/Roboto-Regular.a8d6ac03c7b96b7acb62.ttf",
+    "static/media/Israr-Syria.otf": "/static/media/Israr-Syria.7b35b692dcfe7ce010ad.otf",
+    "static/media/Swissra_Medium_Desktop.woff": "/static/media/Swissra_Medium_Desktop.a71c5612b786ec0ad28f.woff",
+    "static/media/Swissra_Light_Mobile.woff": "/static/media/Swissra_Light_Mobile.0e0ed22901b19a576d5c.woff",
+    "static/media/Kusanagi.otf": "/static/media/Kusanagi.e9897a0e55d6890fd3b0.otf",
+    "index.html": "/index.html",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "static/media/cursor.svg": "/static/media/cursor.b4ddc4f6e454b1cf8251.svg",
+    "main.7dfcdaf5.css.map": "/static/css/main.7dfcdaf5.css.map",
+    "main.6b0daf33.js.map": "/static/js/main.6b0daf33.js.map",
+    "787.66b477fd.chunk.js.map": "/static/js/787.66b477fd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d42c0eea.css",
-    "static/js/main.939f086a.js"
+    "static/css/main.7dfcdaf5.css",
+    "static/js/main.6b0daf33.js"
   ]
 }
