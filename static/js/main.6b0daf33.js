@@ -26789,14 +26789,14 @@
                     uppercase: "none",
                     delay: 0.5,
                     direction: "up",
-                    // content: "welcome to",
+                    content: "welcome to",
                     fontFamily: "Kusanagi",
                     fontSize: t.width <= 550 ? 24 : t.width <= 1280 ? 40 : 54,
                   }),
                   (0, St.jsx)(Bi, {
                     delay: 0.5,
                     direction: "down",
-                    // content: "metagate",
+                    content: "metagate",
                     fontFamily: "Kusanagi",
                     fontSize: t.width <= 550 ? 29 : t.width <= 1280 ? 56 : 64,
                   }),
@@ -26814,8 +26814,8 @@
                       }),
                       (0, St.jsx)(ji, {
                         delay: 1,
-                        // content:
-                        //   "Journey through the METAGATE and explore lucrative opportunities in the web3 multiverse. Our ground-breaking launchpad offers early access to exclusive IMOs and NFT collection drops, only at METAGATE.",
+                        content:
+                          "Journey through the METAGATE and explore lucrative opportunities in the web3 multiverse. Our ground-breaking launchpad offers early access to exclusive IMOs and NFT collection drops, only at METAGATE.",
                         fontFamily: "Roboto",
                         fontSize: 16,
                         lineHeight: 22.4,
@@ -26824,19 +26824,19 @@
                     ],
                   }),
                   (0, St.jsx)(gr, {
-                    // children: (0, St.jsx)("div", {
-                    //   children: (0, St.jsx)(xr, {
-                    //     time: 1,
-                    //     onClick: function () {
-                    //       return window.fullpage_api.moveSectionDown();
-                    //     },
-                    //     children: (0, St.jsx)(dr, {
-                    //       marginTop: "5vh",
-                    //       background: "#FF1C6E",
-                    //     //   content: "EXPLORE NOW",
-                    //     }),
-                    //   }),
-                    // }),
+                    children: (0, St.jsx)("div", {
+                      children: (0, St.jsx)(xr, {
+                        time: 1,
+                        onClick: function () {
+                          return window.fullpage_api.moveSectionDown();
+                        },
+                        children: (0, St.jsx)(dr, {
+                          marginTop: "5vh",
+                          background: "#FF1C6E",
+                          content: "EXPLORE NOW",
+                        }),
+                      }),
+                    }),
                   }),
                   (0, St.jsx)(kr, {}),
                 ],
