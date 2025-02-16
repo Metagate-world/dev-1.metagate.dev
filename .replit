@@ -5,4 +5,5 @@ run = "run"
 channel = "stable-24_05"
 
 [deployment]
-run = ["sh", "-c", "run"]
+deploymentTarget = "cloudrun"
+run = ["sh", "-c", "npx serve -s ."]
