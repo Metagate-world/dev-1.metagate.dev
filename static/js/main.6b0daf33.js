@@ -26816,7 +26816,7 @@
                         delay: 1,
                         // content:
                         //   "Journey through the METAGATE and explore lucrative opportunities in the web3 multiverse. Our ground-breaking launchpad offers early access to exclusive IMOs and NFT collection drops, only at METAGATE.",
-                        fontFamily: "Roboto",
+                        // fontFamily: "Roboto",
                         fontSize: 16,
                         lineHeight: 22.4,
                         width: t.width <= 490 ? "280px" : "fit-content",
