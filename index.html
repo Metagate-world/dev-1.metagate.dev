@@ -16,11 +16,30 @@
     </head>
     <body>
         <div class="header">
-            <h4>HOME</h4>
-            <h4>LAUNCHPAD</h4>
-            <h4>MINTERY</h4>
-            <h4>METAACADEMY</h4>
+            <h4 onclick="showSection('home')" class="active">HOME</h4>
+            <h4 onclick="showSection('launchpad')">LAUNCHPAD</h4>
+            <h4 onclick="showSection('mintery')">MINTERY</h4>
+            <h4 onclick="showSection('metaacademy')">METAACADEMY</h4>
         </div>
+        <script>
+            function showSection(sectionId) {
+                // Remove active class from all headers
+                document.querySelectorAll('.header h4').forEach(header => {
+                    header.classList.remove('active');
+                });
+                
+                // Add active class to clicked header
+                document.querySelector(`.header h4[onclick*="${sectionId}"]`).classList.add('active');
+                
+                // Hide all sections
+                document.querySelectorAll('.section').forEach(section => {
+                    section.style.display = 'none';
+                });
+                
+                // Show selected section
+                document.getElementById(sectionId).style.display = 'flex';
+            }
+        </script>
         <div
             style="
                 width: 99vw;

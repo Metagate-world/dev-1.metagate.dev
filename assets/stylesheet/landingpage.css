@@ -39,3 +39,44 @@ button {
         width: 90% !important;
     }
 }
+.header {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.header h4 {
+    color: white;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    margin: 0;
+    padding: 10px 20px;
+    font-family: Kusanagi, sans-serif;
+}
+
+.header h4:hover {
+    color: #ec09a8;
+}
+
+.header h4.active {
+    color: #ec09a8;
+    border-bottom: 2px solid #ec09a8;
+}
+
+.section {
+    min-height: 100vh;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 20px 20px 20px;
+}
+
+#home {
+    display: flex;
+}
