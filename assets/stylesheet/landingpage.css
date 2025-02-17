@@ -17,6 +17,15 @@ body, div {
     padding: 0px;
 }
 
+body {
+    background-image: url('/attached_assets/section1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
 button {
     cursor: pointer;
 }
