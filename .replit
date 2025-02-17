@@ -1,1 +1,21 @@
 
+run = "npx serve build --listen 3000 --no-clipboard"
+hidden = [".config", "package-lock.json"]
+compile = "npm run build"
+
+[nix]
+channel = "stable-22_11"
+
+[deployment]
+run = ["sh", "-c", "npx serve build --listen 3000 --no-clipboard"]
+deploymentTarget = "cloudrun"
+ignorePorts = false
+
+[languages]
+[languages.javascript]
+pattern = "**/{*.js,*.jsx,*.ts,*.tsx}"
+[languages.javascript.languageServer]
+start = "typescript-language-server --stdio"
+
+[languages.css]
+pattern = "**/{*.less,*.scss,*.css}"
