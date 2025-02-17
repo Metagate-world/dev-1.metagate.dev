@@ -80,3 +80,80 @@ button {
 #home {
     display: flex;
 }
+
+.content-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    color: white;
+}
+
+.feature-grid, .course-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.feature-card, .course-card, .project-card, .nft-card {
+    background: rgba(0, 0, 0, 0.7);
+    border: 1px solid #ec09a8;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.feature-card:hover, .course-card:hover, .project-card:hover, .nft-card:hover {
+    transform: translateY(-5px);
+}
+
+.feature-card img, .course-card img, .project-card img, .nft-card img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.join-btn, .enroll-btn {
+    background: #ec09a8;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-family: Kusanagi, sans-serif;
+}
+
+.join-btn:hover, .enroll-btn:hover {
+    background: #d00896;
+}
+
+h1 {
+    font-family: Kusanagi, sans-serif;
+    color: #ec09a8;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-family: Kusanagi, sans-serif;
+    color: #ec09a8;
+    margin: 15px 0;
+}
+
+p {
+    font-family: Roboto, sans-serif;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+@media (max-width: 768px) {
+    .feature-grid, .course-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .content-wrapper {
+        padding: 20px 10px;
+    }
+}
